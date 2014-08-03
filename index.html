@@ -60,19 +60,7 @@
             <script src="http://static.parastorage.com/services/wix-users/2.411.0/user-api/user-api.min.js?cacheKiller=1"></script>
     
     
-            <script type="text/javascript">
-            var userApi = UserApi.getInstance().init({
-                "usersDomain":"http://users.wix.com//wix-users",
-                "corsEnabled":false,
-                "dontHandShake":true,
-                "urlThatUserRedirectedFrom":"$"
-            });
-
-            UserServerApi.setOptions({
-                "usersDomain":"http://users.wix.com//wix-users",
-                "urlParams": { "urlThatUserRedirectedFrom" : "$" }
-            });
-        </script>
+         
     
     </head>
 <body>
@@ -101,10 +89,6 @@ var anchors = {};
 
     
         
-    
-<div comp="wysiwyg.viewer.components.WixAds" skin="wysiwyg.viewer.skins.wixadsskins.WixAdsWebSkin" id="wixFooter"></div>
-
-    
 
     <script>
         window.define && define.resource('status.structure.loaded', true);
